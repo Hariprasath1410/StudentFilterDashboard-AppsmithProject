@@ -1,0 +1,3 @@
+SELECT DISTINCT class FROM students 
+WHERE school_name = '{{Select1.selectedOptionValue}}' 
+ORDER BY class;

@@ -1,0 +1,4 @@
+SELECT * FROM students
+WHERE school_name = '{{Select1.selectedOptionValue}}'
+  AND class = '{{Select2.selectedOptionValue}}'
+  AND section = '{{Select3.selectedOptionValue}}';

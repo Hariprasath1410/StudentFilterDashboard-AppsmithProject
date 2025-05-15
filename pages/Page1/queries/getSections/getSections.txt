@@ -1,0 +1,5 @@
+SELECT DISTINCT section FROM students
+WHERE 
+  (school_name = '{{Select1.selectedOptionValue}}' OR '{{Select1.selectedOptionValue}}' = '')
+  AND (class = '{{Select2.selectedOptionValue}}' OR '{{Select2.selectedOptionValue}}' = '')
+ORDER BY section;

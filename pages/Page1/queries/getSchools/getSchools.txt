@@ -1,0 +1,1 @@
+SELECT DISTINCT school_name FROM students ORDER BY school_name;
